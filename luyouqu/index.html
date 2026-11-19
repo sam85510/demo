@@ -66,7 +66,12 @@ h1 mark{background:linear-gradient(transparent 58%,var(--mark) 58%,var(--mark) 9
   .wrap{gap:28px}
   .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-right:calc(-1*max(16px,env(safe-area-inset-right,0px)));padding-right:16px}
   .chip{flex:none}
-  .track{grid-auto-columns:78%;margin-right:calc(-1*max(16px,env(safe-area-inset-right,0px)))}
+  /* 11/19 Sam「直式瀏覽影片太大了」：手機一畫面看到 2 支＋第 3 支露一點 */
+  .track{grid-auto-columns:44%;gap:12px;margin-right:calc(-1*max(16px,env(safe-area-inset-right,0px)))}
+  .item{padding:6px 6px 12px;gap:8px;border-radius:14px}
+  .letter{font-size:17px;padding:5px 8px 6px}
+  .name{font-size:16px}
+  .desc{font-size:14px;line-height:1.5}
   .reply{padding:20px}
 }
 @media (prefers-reduced-motion:reduce){.track{scroll-behavior:auto}.chip,.chip b,.item{transition:none}}
