@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>角色機入門包｜免費領</title>
+<meta name="description" content="Claude 任務一多就亂？我每天在用的做法整理成角色機入門包，讓 Claude 換視窗也不失憶。追蹤就免費送，附贈手機叫電腦開視窗、合蓋不休眠兩個小工具。">
+<meta property="og:title" content="角色機入門包｜免費領">
+<meta property="og:description" content="Claude 任務一多就亂？我每天在用的做法，追蹤就免費送。">
+<meta property="og:image" content="https://sam85510.github.io/demo/role-machine/og.jpg">
+<meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700;900&display=swap">
+<style>
+:root{--y:#FFD60A;--k:#000;--bg:#1d1d1b;--c:#2B2B28;--w:#f4f2ea;--mu:#b9b7ae;--line:#3d3d39;--ln:#06C755;color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--w);font-family:-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.75;font-size:17px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+main{max-width:640px;margin:0 auto;padding:28px 16px 60px}
+.serif{font-family:"Noto Serif TC","Songti TC",serif}
+.hl{display:inline;background:var(--y);color:var(--k);font-weight:900;padding:.08em .28em;line-height:1.55;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.y{color:var(--y);font-weight:700}
+h1{font-size:clamp(26px,7.4vw,36px);line-height:1.45;margin:8px 0 14px}
+h2{font-size:24px;margin:44px 0 14px;line-height:1.4}
+.lead{font-size:18px;font-weight:700;margin:0}
+.car{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;margin:20px -16px 4px;padding:0 16px 8px;scrollbar-width:none}
+.car::-webkit-scrollbar{display:none}
+.car img{flex:none;width:82%;max-width:420px;aspect-ratio:4/5;object-fit:cover;border-radius:12px;scroll-snap-align:center}
+.dots{display:flex;justify-content:center;gap:6px;margin:6px 0 0}
+.dots i{width:7px;height:7px;border-radius:50%;background:#55544f;transition:background .2s,transform .2s}
+.dots i.on{background:var(--y);transform:scale(1.25)}
+.hint{text-align:center;color:var(--mu);font-size:14px;margin:6px 0 0}
+ul.ok{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+ul.ok li{background:rgba(20,20,18,.85);border:1px solid var(--line);border-radius:12px;padding:12px 14px 12px 46px;position:relative}
+ul.ok li:before{content:"✓";position:absolute;left:14px;top:12px;width:22px;height:22px;border-radius:6px;background:var(--y);color:#000;font-weight:900;text-align:center;line-height:22px;font-size:14px}
+.tools{display:flex;flex-direction:column;gap:12px}
+.tool{display:grid;grid-template-columns:84px 1fr;gap:14px;align-items:center;background:rgba(20,20,18,.85);border:1px solid var(--line);border-radius:14px;padding:10px;color:var(--w);text-decoration:none;transition:border-color .2s,transform .1s}
+.tool:hover{border-color:var(--y)}.tool:active{transform:scale(.98)}
+.tool img{width:84px;height:105px;object-fit:cover;border-radius:9px}
+.tool b{display:block;font-size:17px}
+.tool span{display:block;font-size:14px;color:var(--mu)}
+.tool em{font-style:normal;font-size:13px;color:var(--y)}
+.get{display:flex;flex-direction:column;gap:12px}
+.btn{display:block;text-align:center;text-decoration:none;font-weight:900;font-size:17px;border-radius:14px;padding:15px 12px;transition:transform .1s,filter .2s}
+.btn:active{transform:scale(.97)}.btn:hover{filter:brightness(1.08)}
+.btn small{display:block;font-weight:500;font-size:13px;opacity:.85}
+.b1{background:var(--y);color:#000}
+.b2{border:1.5px solid var(--line);color:var(--w);font-weight:700;font-size:16px}
+.box{background:rgba(20,20,18,.85);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0;font-size:16px}
+.line{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--w);background:rgba(6,199,85,.12);border:1px solid rgba(6,199,85,.5);border-radius:12px;padding:12px 14px;font-size:15px}
+.line b{color:var(--ln)}
+.small{font-size:14px;color:var(--mu);text-align:center;margin:10px 0 0}
+.foot{display:flex;align-items:center;gap:10px;margin-top:48px;color:#d8d6ce;font-weight:600;font-size:15px}
+.foot img{height:20px}
+a:focus-visible{outline:2px solid var(--y);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){.dots i,.tool,.btn{transition:none}}
+</style></head><body><main>
+<img src="logo-w.svg" alt="Sam在嗎" style="height:22px">
+<h1 class="serif">Claude 任務一多就亂？<br><span class="hl">角色機入門包　免費領</span></h1>
+<p class="lead">讓 Claude 換視窗也不失憶：每件事開一個視窗，規則和進度記在檔案裡，新視窗一打開就接得上。</p>
+<div class="box">要準備：Mac，裝好 Claude 桌面 App 或 Claude Code（要 Claude 付費方案，Pro 月費約台幣 650，自己到官網訂）。<br>用 Windows？還沒測過，先 <a href="https://line.me/R/ti/p/@sam.reels.tw" style="color:var(--y)">LINE 問我</a>。</div>
+
+<div class="car" id="car" aria-label="角色機圖文，左右滑看 9 張">
+<img src="01.jpg" alt="新手用 Claude，任務一多就亂"><img src="02.jpg" alt="第 2 張" loading="lazy"><img src="03.jpg" alt="第 3 張" loading="lazy"><img src="04.jpg" alt="第 4 張" loading="lazy"><img src="05.jpg" alt="第 5 張" loading="lazy"><img src="06.jpg" alt="第 6 張" loading="lazy"><img src="07.jpg" alt="第 7 張" loading="lazy"><img src="08.jpg" alt="第 8 張" loading="lazy"><img src="09.jpg" alt="第 9 張" loading="lazy">
+</div>
+<div class="dots" id="dots"></div>
+<p class="hint">← 左右滑看 9 張 →</p>
+
+<h2 class="serif"><span class="hl">裝好你會有</span></h2>
+<ul class="ok">
+<li>你糾正過一次的事，它記進那個人的規則，下次新視窗不用再講</li>
+<li>每個視窗開工先讀最近 2 天的進度，接著昨天做，不用你重講做到哪</li>
+<li>一件事一個視窗，標題寫「任務名｜誰在做」，一眼看出誰在忙什麼（標題這項限桌面 App）</li>
+<li>收工前沒寫筆記、沒記進度，它會先擋一次提醒</li>
+</ul>
+
+<h2 class="serif"><span class="hl">怎麼裝（約 5 分鐘）</span></h2>
+<ul class="ok">
+<li>下載角色機的 zip</li>
+<li>開一個 Claude 視窗，把 zip 拖進去，打「幫我裝角色機，叫我小明」（換成你的稱呼）</li>
+<li>它先講會改什麼，你說好才裝；不蓋掉你原本的設定，改之前先備份</li>
+</ul>
+
+<h2 class="serif"><span class="hl">附贈兩個小工具</span></h2>
+<div class="tools">
+<a class="tool" href="https://sam85510.github.io/open-window/"><img src="win.jpg" alt=""><div><b>手機叫電腦開視窗<em>　選裝</em></b><span>人在外面，手機打一句話，家裡電腦就開好 Claude 視窗。要用桌面 App 的遠端控制，裝角色機時會先問你要不要。</span><em>看設定步驟 →</em></div></a>
+<a class="tool" href="https://claude.ai/artifact/9NUmvSu3XPEw52rimiaC7L"><img src="zzz.jpg" alt=""><div><b>合蓋不休眠<em>　提示詞</em></b><span>筆電蓋起來，Claude 照樣繼續跑。要 macOS 13 以上、Claude Code，設定時要輸入一次電腦密碼。</span><em>看提示詞 →</em></div></a>
+</div>
+
+<h2 class="serif"><span class="hl">怎麼領</span></h2>
+<div class="get">
+<a class="btn b1" href="https://ig.me/m/sam.reels.tw">IG 私訊我，按「領免費工具」<small>追蹤 @sam.reels.tw 就送下載連結</small></a>
+</div>
+<p class="small">或到<a href="https://www.instagram.com/p/DfTcXJ8nH-W/" style="color:var(--y)">角色機那篇貼文</a>留言「角色機」，我私訊給你。</p>
+
+<h2 class="serif"><span class="hl">也免費：剪接招式庫</span></h2>
+<a class="line" href="https://sam85510.github.io/demo/moves/"><div>500 多招短影音剪接招式，Claude 照招幫你剪<br><b>看怎麼領 →</b></div></a>
+
+<h2 class="serif"><span class="hl">要管 LINE 客戶群組？</span></h2>
+<a class="line" href="https://ig.me/m/sam.reels.tw"><div>IG 私訊我傳「<b>P</b>」<br>領「LINE 追專案」安裝包</div></a>
+
+<p style="margin-top:28px">卡住了？<a href="https://line.me/R/ti/p/@sam.reels.tw" style="color:var(--y)">LINE @sam.reels.tw</a> 問我，問問題不收錢。</p>
+<div class="foot"><img src="logo-w.svg" alt="Sam在嗎"> @sam.reels.tw</div>
+</main>
+<script>
+const car=document.getElementById("car"),dots=document.getElementById("dots"),imgs=[...car.querySelectorAll("img")];
+imgs.forEach((_,i)=>{const d=document.createElement("i");if(!i)d.className="on";dots.appendChild(d)});
+const ds=[...dots.children];
+car.addEventListener("scroll",()=>{const c=car.scrollLeft+car.clientWidth/2;let b=0,bd=1e9;imgs.forEach((im,i)=>{const m=im.offsetLeft+im.clientWidth/2,d=Math.abs(m-c);if(d<bd){bd=d;b=i}});ds.forEach((d,i)=>d.classList.toggle("on",i===b))},{passive:true});
+</script></body></html>
